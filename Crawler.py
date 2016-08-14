@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import urllib.request
 
+#Added comments
+
 def main_crawler(url):
     source=requests.get(url)
     source=source.text
