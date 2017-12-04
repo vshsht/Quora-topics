@@ -15,7 +15,7 @@ def main_crawler(url):
             link='https://www.quora.com'+str(link)
 
         title=links.string
-        print('Q ',title)
+        print('Q. ',title)
         print(link)
         print('\n')
 
